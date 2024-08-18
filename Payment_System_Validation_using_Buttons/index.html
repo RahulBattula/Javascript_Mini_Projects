@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/javascript.svg" type="image/x-icon">
+</head>
+<body>
+    <h1>Payment System</h1>
+    <div class="container">
+        <div class="option">
+            <input type="checkbox" id="membership">
+            <label for="Prime membership">Prime membership</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="Payment" id="cod">
+            <label for="cod">Cash On Delivery</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="Payment" id="UPI">
+            <label for="UPI">UPI</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="Payment" id="bankTransfer">
+            <label for="bankTransfer">Bank Transfer</label>
+        </div>
+        <button id="payBtn" class="btn">Pay now</button>
+    </div>
+    <h3 id="primeResponse"></h3>
+    <h3 id="payResponse"></h3>
+
+    <!-- <script defer src="index.js"></script> -->
+    <script defer src="script.js"></script>
+    
+</body>
+</html>
