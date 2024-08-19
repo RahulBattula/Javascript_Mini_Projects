@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/javascript.svg" type="image/x-icon">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="container">
+        <div class="option">
+            <input type="radio" name="conversion" id="celsius">
+            <label for="celsius">Celsius to Fahrenheit</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="conversion" id="fahrenheit">
+            <label for="fahrenheit">Fahrenheit to Celsius</label>
+        </div>
+        <input type="number" id="temperature" class="tempBox">
+        <button id="convertBtn">Convert</button>
+    </div>
+    <h3 id="convertedTemp"></h3>
+    <script defer src="script.js"></script>
+</body>
+</html>

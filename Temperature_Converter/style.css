@@ -1,0 +1,37 @@
+* {
+    font-family: 'JetBrains Mono';
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.option {
+    display: flex;
+    padding: 10px;
+}
+  
+.option input[type="radio"] {
+    margin-right: 10px; 
+}
+
+.tempBox {
+    padding: 10px;
+}
+
+#convertBtn {
+    background-color: rgb(146, 208, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+#convertBtn:hover {
+    background-color: rgb(32, 115, 154);
+}
