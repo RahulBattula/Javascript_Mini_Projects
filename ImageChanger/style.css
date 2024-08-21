@@ -1,0 +1,32 @@
+* {
+    font-family: 'JetBrains Mono';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-container {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh; 
+    padding: 20px;
+}
+
+.smallImages-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%; 
+}
+
+.smallImage {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.bigImage {
+    width: auto;
+    height: 80%; 
+    margin-left: 20px;
+}
